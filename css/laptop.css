@@ -1,0 +1,472 @@
+/*GOOGLE FONTS NOTO SANS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+/*GENERAL SETINGS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #343a40;
+}
+
+.section-background {
+  background-color: #e9ecef;
+}
+
+.section-job-target {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h3 {
+  background-color: #22b8cf;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.list li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+dd {
+  line-height: 1.6;
+}
+
+/*general navbar*/
+
+/*seting color icon */
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  color: #fff;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* PERSOL INFORMATION- JOB TARGET*/
+/*seting title */
+
+.infor-job-detail h1 {
+  padding: 60px 0;
+}
+
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  color: #6741d9;
+}
+
+/*BUILD THE CAREER INFORMATION SECTION*/
+
+.career-infor {
+  border: 1px solid #dee2e6;
+  background-color: #51cf66;
+}
+
+/*seting title */
+
+.main-title {
+  background-color: #22b8cf;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 0.75fr 0.25fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*seting time button */
+
+.time {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+/*seting skill line */
+
+.line {
+  display: inline-block;
+  margin-top: 14px;
+  width: 60px;
+  height: 2px;
+  background-color: #1864ab;
+  margin-bottom: 20px;
+}
+
+/*list decorations*/
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #1864ab;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*list space*/
+
+.space {
+  margin-bottom: 20px;
+}
+
+/*icon for build-infor*/
+
+.ic-toolbox,
+.ic-tools-2,
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic {
+  color: #495057;
+  font-size: 40px;
+}
+
+.ic-megaphone,
+.ic-strategy,
+.icon-hobit,
+.ic-basket {
+  display: inline;
+  color: #495057;
+}
+
+/*seting hobit */
+
+.icon-hobits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hobit-title {
+  font-size: 12px;
+  color: #495057;
+  transform: translate(-15px, 10px);
+}
+
+.list-detail {
+  font-size: 14px;
+  background-color: #51cf66;
+  padding: 40px;
+}
+
+.box-circle {
+  width: 40px;
+  height: 40px;
+  color: #6741d9;
+  border: 1px solid #6741d9;
+  border-radius: 50%;
+  transform: translate(-13px, 29px);
+}
+
+/*PROJECT*/
+
+.title-space-project {
+  padding: 60px 0;
+}
+
+.icon-user-1,
+.icon-lamp {
+  color: #495057;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-infor-detail {
+  background-color: #c0eb75;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+  padding: 16px;
+}
+
+.infor-time {
+  color: #fff;
+  background-color: #6741d9;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+
+/*LAPTOP*/
+
+@media (min-width: 1141px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  /* BANNER*/
+
+  .banner {
+    height: 60vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.551),
+        rgba(0, 0, 0, 0.552)
+      ),
+      url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #000;
+  }
+  /*setings positions for title*/
+  .name-title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 100px);
+  }
+
+  /* INFORMATION*/
+
+  /*flex for navbar*/
+  .nav {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #69db7c;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-basis: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+
+    position: relative;
+  }
+
+  /*seting avatar */
+
+  .nav-img {
+    flex-basis: 250px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -35px);
+  }
+
+  /* PERSOL INFORMATION- JOB TARGET*/
+
+  /*grid for content*/
+
+  .infor-job {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 45px;
+  }
+
+  .jop-target {
+    background-color: #f1f3f5;
+    padding: 40px;
+  }
+
+  .persol-infor {
+    background-color: #dee2e6;
+    padding: 40px;
+  }
+
+  .mt-40 {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .icon-contact {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  /*BUILD THE CAREER INFORMATION SECTION*/
+
+  /*grid for content*/
+
+  .build-infor {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    grid-template-rows: 1fr 500px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  /*AWARD CERTIFICATE*/
+  /*seting title */
+
+  .title-space {
+    padding: 40px 0;
+  }
+
+  /*flex setting*/
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*seting picture */
+
+  .img-padd {
+    width: 13em;
+    box-shadow: 0 5px 10px #000;
+  }
+
+  /*seting award item*/
+
+  .award-detail-infor {
+    padding: 20px;
+  }
+
+  .award-detail-infor p:first-child {
+    text-transform: uppercase;
+  }
+
+  .award-detail-infor p:nth-child(2) {
+    margin-bottom: 3px;
+  }
+
+  .border1 {
+    border-bottom: 1px solid #fd7e14;
+  }
+
+  .border2 {
+    border-left: 1px solid #fd7e14;
+  }
+
+  /*PROJECT*/
+
+  /*grid for projects*/
+
+  .funix {
+    display: grid;
+    grid-template-columns: 40% 1%;
+  }
+
+  /* .big-project {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: 665px;
+    gap: 30px;
+  }
+  */
+
+  /*seting table*/
+
+  /*seting table*/
+
+  table {
+    height: 250px;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-bottom: 1px solid #495057;
+  }
+
+  table td {
+    font-size: 14px;
+  }
+
+  tr td {
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  td:first-child {
+    font-weight: bold;
+  }
+
+  .project-table {
+    background-color: #51cf66;
+    padding: 20px;
+  }
+
+  table tr :first-child {
+    width: 100px;
+  }
+
+  /*CONTACT*/
+
+  .contact {
+    color: #343a40;
+    padding: 60px 50px;
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+    background-color: #dee2e6;
+  }
+
+  .contact-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-list li:hover {
+    transform: translateY(10px);
+  }
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    color: #6741d9;
+    font-size: 40px;
+  }
+}

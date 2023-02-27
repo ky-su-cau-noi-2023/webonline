@@ -1,0 +1,219 @@
+@media (min-width: 769px) and (max-width: 1140px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  /*BANNER*/
+
+  .banner {
+    height: 47em;
+    width: 48em;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.551),
+        rgba(0, 0, 0, 0.552)
+      ),
+      url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #000;
+  }
+
+  /*NAVABAR*/
+
+  /*seting avatar */
+  .nav-img {
+    display: none;
+  }
+
+  /*setings positions for title*/
+  .name-title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(0, 15em);
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-basis: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 60px;
+  }
+
+  /* PERSOL INFORMATION- JOB TARGET*/
+
+  .jop-target {
+    background-color: #f1f3f5;
+    padding: 30px;
+  }
+
+  .persol-infor {
+    background-color: #dee2e6;
+    padding: 30px;
+  }
+
+  .infor-job {
+    display: grid;
+    grid-template-columns: 24em 24em;
+    padding: 0;
+  }
+
+  .mt-40 {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .icon-contact {
+    padding: 20px 0;
+  }
+
+  /*BUILD THE CAREER INFORMATION SECTION*/
+
+  .build-infor {
+    display: grid;
+    grid-template-columns: repeat(2, 16em);
+    gap: 30px;
+    /* transform: translate(7em, 0);*/
+    margin-left: 7em;
+  }
+
+  .grid-height {
+    height: 8em;
+  }
+
+  /*HOBIT*/
+
+  .main-title {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list-detail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*AWARD CERTIFYCATE*/
+
+  /*seting title */
+  .title-space {
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+
+  .award-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 0;
+  }
+
+  .award-grid img {
+    width: 200%;
+    box-shadow: 0 5px 10px #000;
+    margin: 10px;
+  }
+
+  .award-grid p:first-child {
+    text-transform: uppercase;
+  }
+
+  .award-grid :nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .border2 {
+    border-left: 1px solid #fd7e14;
+  }
+
+  .border1 {
+    border-bottom: 1px solid #fd7e14;
+  }
+
+  /*PROJECT*/
+
+  .row-project {
+    display: grid;
+    grid-template-columns: repeat(3, 15.3em);
+  }
+
+  .project-infor {
+    background-color: #22b8cf;
+    height: 5em;
+  }
+
+  .project-infor-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .funix {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  /*seting table*/
+
+  table {
+    height: 18em;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-bottom: 1px solid #495057;
+  }
+
+  table td {
+    font-size: 14px;
+  }
+
+  tr td {
+    padding: 5px;
+    vertical-align: top;
+  }
+
+  td:first-child {
+    font-weight: bold;
+  }
+
+  .project-table {
+    background-color: #51cf66;
+    padding: 5px;
+  }
+
+  /*CONTACT*/
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    color: #6741d9;
+    font-size: 40px;
+  }
+
+  .contact-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-list li:hover {
+    transform: translateY(10px);
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+  }
+}

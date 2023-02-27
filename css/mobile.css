@@ -1,0 +1,178 @@
+@media (max-width: 768px) {
+  .container {
+    width: 24em;
+    margin: 0 auto;
+  }
+
+  /*BANNER*/
+
+  .banner {
+    height: 34em;
+    width: 24em;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.551),
+        rgba(0, 0, 0, 0.552)
+      ),
+      url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #000;
+  }
+
+  /*NAVABAR*/
+
+  /*seting avatar */
+  .nav-img {
+    display: none;
+  }
+
+  /*setings positions for title*/
+  .name-title {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 9em);
+  }
+
+  /*button directions*/
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-success {
+    width: 8em;
+  }
+
+  /* PERSOL INFORMATION- JOB TARGET*/
+
+  .infor-job-detail {
+    padding: 10px;
+  }
+
+  .jop-target {
+    background-color: #f1f3f5;
+  }
+
+  .persol-infor {
+    background-color: #dee2e6;
+  }
+
+  .mt-40 {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .icon-contact {
+    padding-bottom: 40px;
+  }
+
+  /*AWARD CERTIFYCATE*/
+
+  /*seting title */
+  .title-space {
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    padding: 10px;
+  }
+
+  .flex img {
+    width: 100%;
+    box-shadow: 0 5px 10px #000;
+    margin-bottom: 10px;
+  }
+
+  .flex p:first-child {
+    text-transform: uppercase;
+  }
+
+  .flex :nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .border1 {
+    border-bottom: 1px solid #343a40;
+    margin-bottom: 20px;
+  }
+
+  .padd-top {
+    margin-top: 20px;
+  }
+
+  /*PROJECT*/
+
+  .project-infor-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .title-space-project {
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  /*seting table*/
+
+  table {
+    height: 250px;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-bottom: 1px solid #495057;
+  }
+
+  table td {
+    font-size: 14px;
+  }
+
+  tr td {
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  td:first-child {
+    font-weight: bold;
+  }
+
+  .project-table {
+    background-color: #51cf66;
+    padding: 20px;
+  }
+
+  /*CONTACT*/
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    color: #6741d9;
+    font-size: 30px;
+  }
+
+  .contact-list li:hover {
+    transform: translateY(10px);
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+}
