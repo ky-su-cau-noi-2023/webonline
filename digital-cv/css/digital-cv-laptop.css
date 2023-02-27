@@ -1,0 +1,176 @@
+/*GOOGLE FONTS NOTO SANS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+/*GENERAL SETINGS*/
+
+h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 24px;
+  color: #6741d9;
+  padding: 5px;
+
+  border-bottom: 1px solid #6741d9;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 5px;
+}
+
+.content p:first-child {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.soild {
+  border-bottom: 1px solid #343a40;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #212529;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #be4bdb;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1141px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Noto Sans", sans-serif;
+    color: #343a40;
+  }
+
+  main {
+    background-color: #ced4da;
+
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 16px solid #212529;
+    box-shadow: 0 5px 10px #000;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 400px 280px;
+  }
+
+  .flex {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*GOALS*/
+
+  .goals {
+    padding: 15px;
+  }
+
+  .figure-goals {
+    border: 8px solid #212529;
+    padding: 15px;
+  }
+
+  .soild {
+    border-bottom: 1px solid #343a40;
+  }
+
+  /*TEAM*/
+
+  .team {
+    padding: 15px;
+  }
+
+  .figure-team {
+    border: 8px solid #212529;
+    padding: 15px;
+  }
+
+  .flex-right {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+  }
+
+  /*TIMELINE*/
+
+  .timeline {
+    padding: 15px;
+  }
+
+  .dashed {
+    border-bottom: 1px dashed #343a40;
+  }
+
+  .figure-timeline {
+    border: 8px solid #212529;
+    padding: 15px;
+  }
+
+  .dashed {
+    border-bottom: 1px dashed #343a40;
+  }
+
+  .figure-timeline {
+    grid-column: 3;
+    grid-row: 1 / span2;
+  }
+
+  /*SCOPES*/
+
+  .figure-scopes {
+    border: 8px solid #212529;
+    padding: 15px;
+  }
+
+  .in-out {
+    padding: 10px;
+  }
+
+  .space {
+    margin-bottom: 10px;
+  }
+
+  /*PRIMARY*/
+
+  .primary {
+    padding: 15px;
+  }
+
+  .figure-primary {
+    border: 8px solid #212529;
+    padding: 15px;
+  }
+}
